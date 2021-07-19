@@ -3,7 +3,7 @@ Repo valid for limited time
 
 #Assignment list 
 
-1. Write a program to transfer an amount from one account holder to another using Pass by reference method. ([TransferAmount.cpp](https://github.com/iRawNewton/temp/blob/main/Assignments/AllocateObjMemory.cpp))
+1. Write a program to transfer an amount from one account holder to another using Pass by reference method. ([TransferAmount.cpp](https://github.com/iRawNewton/temp/blob/main/Assignments/TransferAmount.cpp))
 
 2. Write a program to display date (format : DD/MM/YYYY) using inline function where all the values are user input. ([DispDateInline.cpp](https://github.com/iRawNewton/temp/blob/main/Assignments/DispDateInline.cpp))
 
