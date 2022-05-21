@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Student Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        /* body {
+            background-color: rgb(209, 230, 230);
+        } */
+        
+        .StudentInfo {
+            max-width: 800px;
+            margin: 50px auto;
+            position: relative;
+            /* box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1); */
+            box-shadow: 12px 12px 22px grey;
+            padding: 30px;
+        }
+        
+        .StudentInfo .title {
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 3px;
+            font-size: 3em;
+            line-height: 48px;
+            padding-bottom: 20px;
+            color: #5543ca;
+            background: linear-gradient(to right, #d6130c 0%, #2611b1 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .contact-form .form-field {
+            position: relative;
+            margin: 32px 0;
+        }
+        
+        .contact-form .input-text {
+            display: block;
+            width: 100%;
+            height: 30px;
+            border-width: 0 0 1px 0;
+            border-color: #000000;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 400px;
+            padding-left: 10px;
+        }
+        
+        .contact-form .input-text:focus+.label,
+        .contact-form .input-text.not-empty+.label {
+            transform: translateY(-24px);
+        }
+        
+        .contact-form .input-text:focus {
+            outline: none;
+        }
+        
+        .contact-form .label {
+            position: absolute;
+            left: 20px;
+            bottom: 17px;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #5543ca;
+            cursor: text;
+            text-transform: capitalize;
+            transition: transform 0.2s ease-in-out;
+        }
+        
+        .contact-form .submit-btn {
+            display: inline-block;
+            background-image: linear-gradient(125deg, #a72879, #064497);
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 16px;
+            padding: 8px 16px;
+            border: none;
+            width: 200px;
+            cursor: pointer;
+        }
+        /* Change the white to any color */
+        
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        input:-webkit-autofill:active {
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+            -webkit-box-shadow: 0 0 0 30px white inset !important;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="StudentInfo">
+        <h1 class="title">Student Details</h1>
+        <div class="container">
+            <div class="contact-form row">
+                <div class="form-field col-lg-6">
+                    <input id="name" class="input-text" type="text" name="">
+                    <label for="name" class="label">name</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input id="email" class="input-text" type="email" name="">
+                    <label for="email" class="label">email</label>
+                </div>
+
+                <div class="form-field col-lg-6">
+                    <input id="Company" class="input-text" type="text" name="">
+                    <label for="Company" class="label">Company name</label>
+                </div>
+
+                <div class="form-field col-lg-6">
+                    <input id="phone" class="input-text" type="text" name="">
+                    <label for="phone" class="label">Contact Number</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input id="message" class="input-text" type="text" name="">
+                    <label for="message" class="label">Message</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input class="submit-btn" type="submit" value="submit" name="">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
